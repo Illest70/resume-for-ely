@@ -1,119 +1,161 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: your-username/modern-resume-theme  # Replace with your GitHub repository name
+# favicon: images/favicon.ico  # Optional, add if you have a favicon
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Ely Terrazas
-title: IT Technician
-email: Ely Terrazas
-# email_title: Email (Email title override)
+title: Aspiring Data Analyst/Data Scientist
+email: your.email@example.com  # Replace with your professional email
 phone: (303)-808-5257
-# phone_title: Phone (Phone title override)
-
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username:  # Leave blank or add your Twitter handle
+github_username: your-github-username  # Replace with your GitHub username
+stackoverflow_username:  # Leave blank or add your Stack Overflow ID
+linkedin_username: your-linkedin-username  # Replace with your LinkedIn username
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: Portfolio
+    icon: fas fa-globe
+    url: https://your-username.github.io  # Replace with your portfolio URL
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images/profile.jpg  # Replace with the path to your profile image
+about_content: |
+  I am a passionate and detail-oriented individual with a deep love for computer science and the art of organizing and developing data. I believe that data is only as powerful as the mind that interprets it, and I thrive on transforming raw information into meaningful insights. With a strong foundation in Python, SQL, and data visualization tools, I am eager to apply my technical skills and analytical mindset to solve real-world problems. My goal is to contribute to data-driven decision-making and continue growing as a data professional.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Sales Data Analysis with Python
+        link: https://github.com/your-username/sales-data-analysis  # Replace with your project link
+        link_text: View on GitHub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: https://github.com/your-username/sales-data-analysis  # Replace with your project link
+        description: |
+          Analyzed a dataset of sales transactions to identify trends, top-performing products, and customer behavior. Used Python libraries like Pandas and Matplotlib for data cleaning, analysis, and visualization.
+
+      - layout: left
+        title: SQL Database Optimization
+        link: https://github.com/your-username/sql-database-optimization  # Replace with your project link
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+            url: https://github.com/your-username/sql-database-optimization  # Replace with your project link
+        description: |
+          Designed and queried a relational database to optimize data retrieval and improve query performance. Wrote complex SQL queries to extract insights from large datasets.
+
+      - layout: left
+        title: Data Visualization with Tableau
+        link: https://public.tableau.com/app/profile/your-username  # Replace with your Tableau profile link
+        link_text: View on Tableau
+        additional_links:
+          - title: Tableau Profile
+            icon: fas fa-chart-bar
+            url: https://public.tableau.com/app/profile/your-username  # Replace with your Tableau profile link
+        description: |
+          Created interactive dashboards in Tableau to visualize key metrics from a dataset, such as sales performance, customer demographics, and regional trends.
+
+      - layout: left
+        title: Predictive Modeling with Python
+        link: https://github.com/your-username/predictive-modeling  # Replace with your project link
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/your-username/predictive-modeling  # Replace with your project link
+        description: |
+          Built a simple machine learning model (e.g., linear regression or decision tree) to predict outcomes based on historical data. Used Scikit-learn for model training and evaluation.
+
+      - layout: left
+        title: Web Scraping and Data Collection
+        link: https://github.com/your-username/web-scraping  # Replace with your project link
+        link_text: View on GitHub
+        additional_links:
+          - title: GitHub Repository
+            icon: fab fa-github
+            url: https://github.com/your-username/web-scraping  # Replace with your project link
+        description: |
+          Developed a Python script to scrape data from a website and store it in a structured format for analysis. Used libraries like BeautifulSoup and Requests.
+
+  - title: Certifications
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: Responsive Web Design Certification
+        sub_title: freeCodeCamp
+        caption: Issued 202X  # Replace with the year you earned the certification
+        description: |
+          Skills Gained: HTML, CSS, JavaScript, responsive design principles.
+
+      - layout: right
+        title: JavaScript Algorithms and Data Structures Certification
+        sub_title: freeCodeCamp
+        caption: Issued 202X  # Replace with the year you earned the certification
+        description: |
+          Skills Gained: Advanced JavaScript, problem-solving, algorithm optimization.
+
+      - layout: right
+        title: Front-End Development Libraries Certification
+        sub_title: freeCodeCamp
+        caption: Issued 202X  # Replace with the year you earned the certification
+        description: |
+          Skills Gained: React, Bootstrap, front-end development best practices.
+
+      - layout: right
+        title: Data Engineering Certification
+        sub_title: Codecademy
+        caption: Issued 202X  # Replace with the year you earned the certification
+        description: |
+          Skills Gained: Data pipelines, ETL processes, database management, big data tools.
+
+  - title: Skills
+    layout: text
+    content: |
+      ### Programming Languages
+      - Python
+      - SQL
+      - HTML
+      - CSS
+      - Java
+
+      ### Data Analysis Tools
+      - Pandas
+      - NumPy
+      - Matplotlib
+      - Seaborn
+      - Tableau
+
+      ### Databases
+      - MySQL
+      - PostgreSQL
+
+      ### Other Skills
+      - Data Cleaning
+      - Exploratory Data Analysis (EDA)
+      - Data Visualization
+      - Statistical Analysis
+      - Machine Learning Basics
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: |
+      I am passionate about leveraging data to solve complex problems and drive decision-making. In my free time, I enjoy exploring new datasets, learning about emerging technologies, and contributing to open-source projects. I am always eager to take on new challenges and collaborate with like-minded individuals.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -124,17 +166,16 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"

@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Ely Terrazas
 title: Aspiring Data Analyst/Data Scientist
-email: your.email@example.com  # Replace with your professional email
+email: elyterrazas74@gmail.com
 phone: (303)-808-5257
 
 # Dark Mode (true/false/never)
@@ -96,28 +96,28 @@ content:
       - layout: right
         title: Responsive Web Design Certification
         sub_title: freeCodeCamp
-        caption: Issued 202X  # Replace with the year you earned the certification
+        caption: Issued 2024
         description: |
           Skills Gained: HTML, CSS, JavaScript, responsive design principles.
 
       - layout: right
         title: JavaScript Algorithms and Data Structures Certification
         sub_title: freeCodeCamp
-        caption: Issued 202X  # Replace with the year you earned the certification
+        caption: Issued 2024
         description: |
           Skills Gained: Advanced JavaScript, problem-solving, algorithm optimization.
 
       - layout: right
         title: Front-End Development Libraries Certification
         sub_title: freeCodeCamp
-        caption: Issued 202X  # Replace with the year you earned the certification
+        caption: Issued 2024
         description: |
           Skills Gained: React, Bootstrap, front-end development best practices.
 
       - layout: right
         title: Data Engineering Certification
         sub_title: Codecademy
-        caption: Issued 202X  # Replace with the year you earned the certification
+        caption: Issued 2025
         description: |
           Skills Gained: Data pipelines, ETL processes, database management, big data tools.
 

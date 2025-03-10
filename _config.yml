@@ -36,8 +36,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: Sales Data Analysis with Python
-        link: https://github.com/your-username/sales-data-analysis  # Replace with your project link
+        title: Bike Rental data
+        link: https://github.com/Illest70/Sales-Data-Analysis-with-Python  # Replace with your project link
         link_text: View on GitHub
         additional_links:
           - title: GitHub Repository

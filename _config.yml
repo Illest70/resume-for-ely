@@ -20,11 +20,6 @@ github_username: Illest70  # Replace with your GitHub username
 stackoverflow_username:  # Leave blank or add your Stack Overflow ID
 linkedin_username: ely-terrazas-43806026b  # Replace with your LinkedIn username
 
-# Additional icon links
-additional_links:
-  - title: Portfolio
-    icon: fas fa-globe
-    url: https://illest70.github.io  # Replace with your portfolio URL
 
 # About Section
 about_content: |

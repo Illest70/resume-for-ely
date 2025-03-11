@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ely Terrazas
-title: Aspiring Data Analyst/Data Scientist
+title: Data Analyst/Data Scientist
 email: elyterrazas74@gmail.com
 phone: (303)-808-5257
 
@@ -67,27 +67,7 @@ content:
         description: |
           Created interactive dashboards in Tableau to visualize key metrics from a dataset, such as sales performance, customer demographics, and regional trends.
 
-      - layout: left
-        title: Predictive Modeling with Python
-        link: https://github.com/your-username/predictive-modeling  # Replace with your project link
-        link_text: View on GitHub
-        additional_links:
-          - title: GitHub Repository
-            icon: fab fa-github
-            url: https://github.com/your-username/predictive-modeling  # Replace with your project link
-        description: |
-          Built a simple machine learning model (e.g., linear regression or decision tree) to predict outcomes based on historical data. Used Scikit-learn for model training and evaluation.
-
-      - layout: left
-        title: Web Scraping and Data Collection
-        link: https://github.com/your-username/web-scraping  # Replace with your project link
-        link_text: View on GitHub
-        additional_links:
-          - title: GitHub Repository
-            icon: fab fa-github
-            url: https://github.com/your-username/web-scraping  # Replace with your project link
-        description: |
-          Developed a Python script to scrape data from a website and store it in a structured format for analysis. Used libraries like BeautifulSoup and Requests.
+      
 
   - title: Certifications
     layout: list

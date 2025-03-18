@@ -1,6 +1,5 @@
 # Site
-repository: your-username/modern-resume-theme  # Replace with your GitHub repository name
-# favicon: images/favicon.ico  # Optional, add if you have a favicon
+repository: your-username/modern-resume-theme
 
 # Content configuration version
 version: 2
@@ -15,15 +14,12 @@ phone: (303)-808-5257
 darkmode: true
 
 # Social links
-twitter_username:  # Leave blank or add your Twitter handle
-github_username: Illest70  # Replace with your GitHub username
-stackoverflow_username:  # Leave blank or add your Stack Overflow ID
-linkedin_username: ely-terrazas-43806026b  # Replace with your LinkedIn username
-
+github_username: Illest70
+linkedin_username: ely-terrazas-43806026b
 
 # About Section
 about_content: |
-  I am a passionate and detail-oriented individual with a deep love for computer science and the art of organizing and developing data. I believe that data is only as powerful as the mind that interprets it, and I thrive on transforming raw information into meaningful insights. With a strong foundation in Python, SQL, and data visualization tools, I am eager to apply my technical skills and analytical mindset to solve real-world problems. My goal is to contribute to data-driven decision-making and continue growing as a data professional.
+  I am a passionate and detail-oriented individual with a deep love for computer science and the art of organizing and developing data. I thrive on transforming raw information into meaningful insights.
 
 content:
   - title: Projects
@@ -33,70 +29,41 @@ content:
         title: Bike Rental data
         link: https://github.com/Illest70/Sales-Data-Analysis-with-Python
         link_text: View on GitHub
-        additional_links:
-          - title: GitHub Repository
-            icon: fab fa-github
-            url: https://github.com/your-username/sales-data-analysis
-        description: |
-          Analyzed a dataset of sales transactions to identify trends, top-performing products, and customer behavior. Used Python libraries like Pandas and Matplotlib for data cleaning, analysis, and visualization.
 
       - layout: left
         title: SQL Database Optimization
         link: https://github.com/Illest70/biodiversity-national-parks-project
         link_text: View on GitHub
-        additional_links:
-          - title: GitHub Repository
-            icon: fab fa-github
-            url: https://github.com/your-username/sql-database-optimization
-        description: |
-          Designed and queried a relational database to optimize data retrieval and improve query performance. Wrote complex SQL queries to extract insights from large datasets.
 
       - layout: left
         title: Data Visualization with Tableau
         link: https://public.tableau.com/app/profile/your-username
         link_text: View on Tableau
-        additional_links:
-          - title: Tableau Profile
-            icon: fas fa-chart-bar
-            url: https://public.tableau.com/app/profile/your-username
-        description: |
-          Created interactive dashboards in Tableau to visualize key metrics from a dataset, such as sales performance, customer demographics, and regional trends.
 
       - layout: left
         title: Parallax Scrolling Website
         link: https://codepen.io/Ely-terrazas/pen/Pordogj
         link_text: View on CodePen
-        description: |
-          Built a visually appealing parallax scrolling website using HTML, CSS, and JavaScript. Focused on smooth animations and responsive design principles.
 
       - layout: left
         title: Interactive Calculator
         link: https://codepen.io/Ely-terrazas/pen/JjQwXwW
         link_text: View on CodePen
-        description: |
-          Developed an interactive calculator using JavaScript for functionality and styled with CSS to ensure user-friendly design and responsiveness.
 
       - layout: left
         title: Weather Dashboard
         link: https://codepen.io/Ely-terrazas/pen/yLdZOEw
         link_text: View on CodePen
-        description: |
-          Designed a weather dashboard that dynamically fetches weather data using a weather API, displaying forecasts in a modern, responsive layout.
 
       - layout: left
         title: CSS Art: Geometric Shapes
         link: https://codepen.io/Ely-terrazas/pen/GRbzZaQ
         link_text: View on CodePen
-        description: |
-          Created intricate geometric shapes and patterns using pure CSS. This project highlights creativity and mastery of advanced CSS techniques.
 
       - layout: left
         title: Animated Landing Page
         link: https://codepen.io/Ely-terrazas/pen/YzoBWRJ
         link_text: View on CodePen
-        description: |
-          Designed an animated landing page with engaging visuals, leveraging CSS keyframe animations and transitions for a captivating user experience.
-
 
   - title: Certifications
     layout: list
@@ -165,17 +132,11 @@ content:
 # Footer
 footer_show_references: true
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+# Plugins
 plugins:
   - jekyll-seo-tag
 
+# Exclude unnecessary files for deployment
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
